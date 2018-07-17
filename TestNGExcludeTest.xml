@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parameterization suite ">
+	<parameter name="browser" value="firefox" />
+
+	<test name="ExcludeMethodAndGroup test">
+		<classes>
+			<class name="TestNGPac.ExcludeMethodAndGroup">
+				<methods>
+					<include name="addLocationTestCase" />
+					<include name="addDepartmentTestCase" />
+					<exclude name="addEmployeeTestCase" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

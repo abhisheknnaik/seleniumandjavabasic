@@ -1,0 +1,13 @@
+[0.010][INFO]:      ChromeDriver 20.0.1133.0 G:\Selenium All in one\drivers\ChromeDriver\chromedriver\chromedriver.exe
+[0.971][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.971][INFO]:      Launching chrome: "C:\Users\DELL\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
+[46.003][SEVERE]:   Failed to initialize connection
