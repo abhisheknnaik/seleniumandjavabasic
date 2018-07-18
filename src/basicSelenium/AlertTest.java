@@ -9,32 +9,34 @@ public class AlertTest {
 
 	/**
 	 * @param args
+	 * @throws Exception
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		WebDriver driver = new FirefoxDriver();
-		driver.get("G:\\DemoSite\\alertDemo.html");
-		driver.findElement(By.id("tryBtn")).click();
+		WebDriver driver = DriverUtil.getWebDriver(DriverUtil.browserType);
+		driver.get("https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_prompt");
+		Thread.sleep(2000);
+		driver.switchTo().frame(driver.findElement(By.id("iframeResult")));
 
+		driver.findElement(By.tagName("button")).click();
+		Thread.sleep(1000);
 		// switch to alert
 		Alert alert = driver.switchTo().alert();
 		// get alert text
-		System.out.println(alert.getText());
+		System.out.println("Alert text : " + alert.getText());
+		// alert dismiss
+		alert.dismiss();
 
-		alert.accept();
-		System.out.println(driver.findElement(By.id("label")).getText());
-		driver.findElement(By.id("tryBtn")).click();
+		System.out.println(driver.findElement(By.id("demo")).getText());
+		driver.findElement(By.tagName("button")).click();
+		Thread.sleep(1000);
 		// switch to alert
 		alert = driver.switchTo().alert();
+		alert.sendKeys("Abhishek");
+		// alert accept
+		alert.accept();
 
-		alert.dismiss();
-		System.out.println(driver.findElement(By.id("label")).getText());
+		System.out.println(driver.findElement(By.id("demo")).getText());
 		driver.close();
 	}
 }
-// driver.get("http://jsbin.com/usidix/1");
-// driver.findElement(By.cssSelector("input[value=\"Go!\"]")).click();
-// switch to alert
-// Alert alert = driver.switchTo().alert();
-// get alert text
-// System.out.println(alert.getText());

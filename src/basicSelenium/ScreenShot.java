@@ -15,17 +15,18 @@ public class ScreenShot {
 	WebDriver driver;
 	@Test
 	public void screenShotEx() throws Exception {
-		driver = new FirefoxDriver();
+		driver = DriverUtil.getWebDriver(DriverUtil.browserType);
 		driver.manage().window().maximize();
-		driver.get("http://www.amazon.in");
+		driver.get("https://www.makemytrip.com/");
 		getScreenShot();
+		System.out.println("Screen shot taken successfully ");
 	}
 
 	public void getScreenShot() throws Exception {
 		File scrFile = ((TakesScreenshot) driver)
 				.getScreenshotAs(OutputType.FILE);
 		// The below method will save the screen shot in C drive
-		String fileName="C:\\screenShot"+getCurrentTimeStamp()+".png";
+		String fileName="C:\\screenshot\\screenShot"+getCurrentTimeStamp()+".png";
 		FileUtils.copyFile(scrFile, new File(fileName));
 	}
 	public static String getCurrentTimeStamp() {

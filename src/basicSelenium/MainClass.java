@@ -6,10 +6,25 @@ import org.junit.runner.Result;
 public class MainClass {
 
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
-		ActionDemo ad=new ActionDemo();
-		ad.dragAndDrop();
-		//Result result = JUnitCore.runClasses(ActionDemo.class);
+
+		// ActionDemo ad=new ActionDemo();
+		// ad.dragAndDrop();
+		// ad.mouserOver();
+		// ad.keyEvent();
+
+		// JavaScriptEx jc=new JavaScriptEx();
+		// jc.setUp();
+		// jc.scrollingToElementofAPage();
+		// jc.scrollingToBottomofAPage();
+
+		// NavigationEx navigationEx=new NavigationEx();
+		// navigationEx.nevigationTest();
+		// ScreenShot screenShot=new ScreenShot();
+		// screenShot.screenShotEx();
+
+		WindowSwitch windowSwitch = new WindowSwitch();
+		windowSwitch.test();
+		// windowSwitch.testSwichToNewTab();
 	}
 
 }
