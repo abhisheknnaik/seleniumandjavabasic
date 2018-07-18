@@ -13,8 +13,8 @@ import org.testng.annotations.Test;
 
 public class ActionDemo {
 	@Test
-	public void dragAndDrop() {
-		WebDriver driver = new FirefoxDriver();
+	public void dragAndDrop() throws Exception {
+		WebDriver driver = DriverUtil.getWebDriver("firefox");//FirefoxDriver();
 		driver.get("http://jqueryui.com/droppable/");
 		driver.manage().window().maximize();
 		driver.switchTo().frame(driver.findElement(By.className("demo-frame")));

@@ -22,12 +22,13 @@ public class BrowserOptions {
 		driver.manage().window().maximize();
 	}
 	
+	@SuppressWarnings("deprecation")
 	@Test
 	public void cleanCache()
 	{
 		WebDriver driver = null;
 		System.setProperty("webdriver.ie.driver",
-				"G:/Selenium All in one/drivers/IEDriverServer_Win32_3.8.0/IEDriverServer.exe");
+				"\\drivers\\IEDriverServer.exe");
 		DesiredCapabilities dc = DesiredCapabilities.internetExplorer();	
 		dc.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
 		driver = new InternetExplorerDriver(dc);
