@@ -8,11 +8,14 @@ public class InterfaceDemo {
 		Dog d = new Dog();
 		d.test();
 		Pet p = new Dog();
+		
 	}
 }
 
 interface Pet {
 	int petCount = 2;
+	//Exception : Interfaces cannot have constructors
+	//Pet(){}
 
 	void test();
 
@@ -22,6 +25,7 @@ interface Pet {
 class DemoTest {
 	public void test() {
 	}
+	
 }
 
 interface Animal {
@@ -43,6 +47,8 @@ class Dog extends DemoTest implements Pet, Animal {
 	public void myMethod() {
 		System.out.println("Interface implemented myMethod");
 	}
+
+
 }
 
 class Cat implements Pet {
@@ -54,4 +60,6 @@ class Cat implements Pet {
 	public void myMethod() {
 		System.out.println("Interface implemented myMethod");
 	}
+
+	
 }

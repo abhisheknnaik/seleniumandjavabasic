@@ -39,10 +39,12 @@ class OverloadDemo {
 		System.out.println("double a: " + a);
 		return a * a;
 	}
-	
-/*
-	 int test(double a) {
-	 System.out.println("double a: " + a);
-	 return a * a;
-	 }*/
+
+	// We can not overload method only base on return type ,their will be
+	// exception if we try to do that
+	// Exception : Duplicate method test(double) in type OverloadDemo
+	/*
+	 * int test(double a) { System.out.println("double a: " + a); return a * a;
+	 * }
+	 */
 }

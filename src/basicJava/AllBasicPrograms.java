@@ -23,8 +23,8 @@ public class AllBasicPrograms {
 	 */
 	public static void main(String[] args) throws IOException {
 
-		// fibonasis();
-		// factorial();
+		fibonacci();
+		 factorial();
 		// bubbleSort();
 		// swapTwoNum();
 		// PalindromeNumber();
@@ -37,7 +37,7 @@ public class AllBasicPrograms {
 		// primeNumber();
 		// primeNumberUsingWhile();
 		// stringRevese("Abhishek");
-		 paraWithReveseOrderOfChar();
+		// paraWithReveseOrderOfChar();
 		// strToNumber();
 		// convertBinaryToDigit();
 		// convertDigitToBinary(8);
@@ -45,13 +45,13 @@ public class AllBasicPrograms {
 		// System.out.println(" using mothod " + Integer.toBinaryString(8));
 		// convertDigitToBinaryUsingStack(8);
 		// System.out.println(convert(119));
-		firstNonRepetingChar();
+		// firstNonRepetingChar();
 	}
 
-	// fibonacies series
-	public static void fibonasis() {
+	// Fibonacci series : 0 1 1 2 3 5 8 13 21 34
+	public static void fibonacci() {
 		int a = 0, b = 1, temp, num;
-		System.out.println("fibonacies");
+		System.out.println("Fibonacci");
 		num = 10;
 		for (int i = 0; i < num; i++) {
 			System.out.print(a + " ");

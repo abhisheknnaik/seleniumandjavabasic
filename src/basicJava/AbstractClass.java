@@ -19,6 +19,13 @@ abstract class Shap {
 	}
 	// abstract method
 	abstract public void area();
+	
+	// This method requires a body instead of a semicolon
+	  //Shap();
+	Shap()
+	 {
+		 System.out.println("In abstract class constractor ");
+	 }
 }
 
 class Rectangle extends Shap {
@@ -26,5 +33,7 @@ class Rectangle extends Shap {
 	public void area() {
 		System.out.println("Area is " + length * height);
 	}
+	
+	
 }
 

@@ -1,1 +1,2 @@
-java -jar selenium-server-standalone-2.48.2.jar -role webdriver -hub http://192.168.43.185:4444/grid/register -port 5566
+java -jar selenium-server-standalone-3.13.0.jar -role webdriver -hub  http://10.20.228.39:4444/grid/register/ -port 5566
+pause

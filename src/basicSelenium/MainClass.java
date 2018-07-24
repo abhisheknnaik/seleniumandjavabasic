@@ -3,6 +3,8 @@ package basicSelenium;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 
+import Grid.GridEx;
+
 public class MainClass {
 
 	public static void main(String[] args) throws Exception {
@@ -22,9 +24,13 @@ public class MainClass {
 		// ScreenShot screenShot=new ScreenShot();
 		// screenShot.screenShotEx();
 
-		WindowSwitch windowSwitch = new WindowSwitch();
-		windowSwitch.test();
+		//WindowSwitch windowSwitch = new WindowSwitch();
+		//windowSwitch.test();
 		// windowSwitch.testSwichToNewTab();
+		
+		GridEx gridEx=new GridEx();
+		gridEx.setUp();
+		
 	}
 
 }
