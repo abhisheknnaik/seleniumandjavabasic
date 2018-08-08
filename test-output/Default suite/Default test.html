@@ -1,12 +1,17 @@
 <html>
 <head>
-<title>TestNG:  Default test</title>
+<title>TestNG: Default test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
-.log { display: none;} 
-.stack-trace { display: none;} 
+.log {
+	display: none;
+}
+
+.stack-trace {
+	display: none;
+}
 </style>
 <script type="text/javascript">
 <!--
@@ -53,30 +58,48 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Default test</h2><table border='1' align="center">
-<tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
-</tr><tr>
-<td>Started on:</td><td>Tue Jan 02 22:20:25 IST 2018</td>
-</tr>
-<tr><td>Total time:</td><td>11 seconds (11321 ms)</td>
-</tr><tr>
-<td>Included groups:</td><td></td>
-</tr><tr>
-<td>Excluded groups:</td><td></td>
-</tr>
-</table><p/>
-<small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='basicSelenium.BrowserOptions.cleanCache()'><b>cleanCache</b><br>Test class: basicSelenium.BrowserOptions</td>
-<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+	<h2 align='center'>Default test</h2>
+	<table border='1' align="center">
+		<tr>
+			<td>Tests passed/Failed/Skipped:</td>
+			<td>0/1/0</td>
+		</tr>
+		<tr>
+			<td>Started on:</td>
+			<td>Tue Jan 02 22:20:25 IST 2018</td>
+		</tr>
+		<tr>
+			<td>Total time:</td>
+			<td>11 seconds (11321 ms)</td>
+		</tr>
+		<tr>
+			<td>Included groups:</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Excluded groups:</td>
+			<td></td>
+		</tr>
+	</table>
+	<p />
+	<small><i>(Hover the method name to see the test class
+			name)</i></small>
+	<p />
+	<table width='100%' border='1' class='invocation-failed'>
+		<tr>
+			<td colspan='4' align='center'><b>FAILED TESTS</b></td>
+		</tr>
+		<tr>
+			<td><b>Test method</b></td>
+			<td width="30%"><b>Exception</b></td>
+			<td width="10%"><b>Time (seconds)</b></td>
+			<td><b>Instance</b></td>
+		</tr>
+		<tr>
+			<td title='basicSelenium.BrowserOptions.cleanCache()'><b>cleanCache</b><br>Test
+				class: basicSelenium.BrowserOptions</td>
+			<td><div>
+					<pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
 System info: host: &apos;DELL-PC&apos;, ip: &apos;192.168.43.185&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_55&apos;
 Driver info: driver.version: RemoteWebDriver
@@ -116,8 +139,13 @@ Caused by: java.lang.NullPointerException
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
 	... 26 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace8326983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace8326983'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace8326983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace8326983'>
+					<pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:55:52&apos;
 System info: host: &apos;DELL-PC&apos;, ip: &apos;192.168.43.185&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_55&apos;
 Driver info: driver.version: RemoteWebDriver
@@ -157,9 +185,12 @@ Caused by: java.lang.NullPointerException
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
 	... 26 more
-</pre></div></td>
-<td>11</td>
-<td>basicSelenium.BrowserOptions@892539</td></tr>
-</table><p>
+</pre>
+				</div></td>
+			<td>11</td>
+			<td>basicSelenium.BrowserOptions@892539</td>
+		</tr>
+	</table>
+	<p>
 </body>
 </html>

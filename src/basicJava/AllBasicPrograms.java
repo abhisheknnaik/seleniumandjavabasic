@@ -23,19 +23,19 @@ public class AllBasicPrograms {
 	 */
 	public static void main(String[] args) throws IOException {
 
-		fibonacci();
-		 factorial();
+		//fibonacci();
+		 //factorial();
 		// bubbleSort();
 		// swapTwoNum();
 		// PalindromeNumber();
 		// PalindromeString();
 		// armstrongNumber();
-		// countCharOccurnceInString();
+		 countCharOccurnceInString();
 		// sumOfDigitFromString();
 		// readTxtFileInReverseOrder();
 		// primeNumberWithinRange();
 		// primeNumber();
-		// primeNumberUsingWhile();
+		//primeNumberUsingWhile();
 		// stringRevese("Abhishek");
 		// paraWithReveseOrderOfChar();
 		// strToNumber();
@@ -209,10 +209,10 @@ public class AllBasicPrograms {
 		int num;
 		boolean isPrime = true;
 		System.out.println("primeNumberUsingWhile");
-		num = 29;
+		num = 21;
 		isPrime = true;
 		int i = 2;
-		while (i < num) {
+		while (i < num/2) {
 			if (num % i == 0) {
 				isPrime = false;
 				break;
@@ -289,9 +289,9 @@ public class AllBasicPrograms {
 		System.out.println(strlist);
 	}
 
-	public static void countCharOccurnceInString() {
+	public static Map<Character, Integer> countCharOccurnceInString() {
 		String str = "hellow world";
-		Map<Character, Integer> map = new HashMap<Character, Integer>();
+		Map<Character, Integer> map = new LinkedHashMap<Character, Integer>();
 		char[] cArray = str.toCharArray();
 		for (char c : cArray) {
 			if (map.containsKey(c)) {
@@ -302,6 +302,7 @@ public class AllBasicPrograms {
 			}
 		}
 		System.out.println(map);
+		return map;
 	}
 
 	public static void sumOfDigitFromString() {

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Parameterization suite " >
-<parameter name="browser" value="firefox" />
-<parameter name="userName" value="username value" />
-<parameter name="password" value="password value" />
+<suite name="Parameterization suite ">
+	<parameter name="browser" value="firefox" />
+	<parameter name="userName" value="username value" />
+	<parameter name="password" value="password value" />
 
-<test name="Paremeter test">
-<classes>
-<class name="TestNGPac.TestXMLParameters"/>
-<class name="TestNGPac.TestNGAnotations"/>
-</classes>
-</test> 
+	<test name="Paremeter test">
+		<classes>
+			<class name="TestNGPac.TestXMLParameters" />
+			<class name="TestNGPac.TestNGAnotations" />
+		</classes>
+	</test>
 </suite>

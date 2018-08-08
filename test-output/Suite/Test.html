@@ -1,12 +1,17 @@
 <html>
 <head>
-<title>TestNG:  Test</title>
+<title>TestNG: Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
-.log { display: none;} 
-.stack-trace { display: none;} 
+.log {
+	display: none;
+}
+
+.stack-trace {
+	display: none;
+}
 </style>
 <script type="text/javascript">
 <!--
@@ -53,33 +58,56 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Test</h2><table border='1' align="center">
-<tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/10/0</td>
-</tr><tr>
-<td>Started on:</td><td>Sun Oct 29 21:37:11 IST 2017</td>
-</tr>
-<tr><td>Total time:</td><td>0 seconds (48 ms)</td>
-</tr><tr>
-<td>Included groups:</td><td></td>
-</tr><tr>
-<td>Excluded groups:</td><td></td>
-</tr>
-</table><p/>
-<small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='TestNGPac.ReRunAllFailedScript.Test1()'><b>Test1</b><br>Test class: TestNGPac.ReRunAllFailedScript</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	<h2 align='center'>Test</h2>
+	<table border='1' align="center">
+		<tr>
+			<td>Tests passed/Failed/Skipped:</td>
+			<td>1/10/0</td>
+		</tr>
+		<tr>
+			<td>Started on:</td>
+			<td>Sun Oct 29 21:37:11 IST 2017</td>
+		</tr>
+		<tr>
+			<td>Total time:</td>
+			<td>0 seconds (48 ms)</td>
+		</tr>
+		<tr>
+			<td>Included groups:</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Excluded groups:</td>
+			<td></td>
+		</tr>
+	</table>
+	<p />
+	<small><i>(Hover the method name to see the test class
+			name)</i></small>
+	<p />
+	<table width='100%' border='1' class='invocation-failed'>
+		<tr>
+			<td colspan='4' align='center'><b>FAILED TESTS</b></td>
+		</tr>
+		<tr>
+			<td><b>Test method</b></td>
+			<td width="30%"><b>Exception</b></td>
+			<td width="10%"><b>Time (seconds)</b></td>
+			<td><b>Instance</b></td>
+		</tr>
+		<tr>
+			<td title='TestNGPac.ReRunAllFailedScript.Test1()'><b>Test1</b><br>Test
+				class: TestNGPac.ReRunAllFailedScript</td>
+			<td><div>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at TestNGPac.ReRunAllFailedScript.Test1(ReRunAllFailedScript.java:11)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace32140028", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace32140028'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace32140028", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace32140028'>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -110,15 +138,24 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div></td>
-<td>0</td>
-<td>TestNGPac.ReRunAllFailedScript@f94934</td></tr>
-<tr>
-<td title='TestNGPac.ReRunAllFailedScript.Test1()'><b>Test1</b><br>Test class: TestNGPac.ReRunAllFailedScript</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre>
+				</div></td>
+			<td>0</td>
+			<td>TestNGPac.ReRunAllFailedScript@f94934</td>
+		</tr>
+		<tr>
+			<td title='TestNGPac.ReRunAllFailedScript.Test1()'><b>Test1</b><br>Test
+				class: TestNGPac.ReRunAllFailedScript</td>
+			<td><div>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at TestNGPac.ReRunAllFailedScript.Test1(ReRunAllFailedScript.java:11)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace29962555", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace29962555'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace29962555", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace29962555'>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -149,15 +186,24 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div></td>
-<td>0</td>
-<td>TestNGPac.ReRunAllFailedScript@f94934</td></tr>
-<tr>
-<td title='TestNGPac.ReRunAllFailedScript.Test1()'><b>Test1</b><br>Test class: TestNGPac.ReRunAllFailedScript</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre>
+				</div></td>
+			<td>0</td>
+			<td>TestNGPac.ReRunAllFailedScript@f94934</td>
+		</tr>
+		<tr>
+			<td title='TestNGPac.ReRunAllFailedScript.Test1()'><b>Test1</b><br>Test
+				class: TestNGPac.ReRunAllFailedScript</td>
+			<td><div>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at TestNGPac.ReRunAllFailedScript.Test1(ReRunAllFailedScript.java:11)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace9953553", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace9953553'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace9953553", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace9953553'>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -188,15 +234,24 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div></td>
-<td>0</td>
-<td>TestNGPac.ReRunAllFailedScript@f94934</td></tr>
-<tr>
-<td title='TestNGPac.ReRunAllFailedScript.Test1()'><b>Test1</b><br>Test class: TestNGPac.ReRunAllFailedScript</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre>
+				</div></td>
+			<td>0</td>
+			<td>TestNGPac.ReRunAllFailedScript@f94934</td>
+		</tr>
+		<tr>
+			<td title='TestNGPac.ReRunAllFailedScript.Test1()'><b>Test1</b><br>Test
+				class: TestNGPac.ReRunAllFailedScript</td>
+			<td><div>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at TestNGPac.ReRunAllFailedScript.Test1(ReRunAllFailedScript.java:11)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace6172767", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace6172767'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace6172767", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace6172767'>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -227,15 +282,24 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div></td>
-<td>0</td>
-<td>TestNGPac.ReRunAllFailedScript@f94934</td></tr>
-<tr>
-<td title='TestNGPac.ReRunAllFailedScript.Test1()'><b>Test1</b><br>Test class: TestNGPac.ReRunAllFailedScript</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre>
+				</div></td>
+			<td>0</td>
+			<td>TestNGPac.ReRunAllFailedScript@f94934</td>
+		</tr>
+		<tr>
+			<td title='TestNGPac.ReRunAllFailedScript.Test1()'><b>Test1</b><br>Test
+				class: TestNGPac.ReRunAllFailedScript</td>
+			<td><div>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at TestNGPac.ReRunAllFailedScript.Test1(ReRunAllFailedScript.java:11)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace24030449", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace24030449'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace24030449", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace24030449'>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -266,15 +330,24 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div></td>
-<td>0</td>
-<td>TestNGPac.ReRunAllFailedScript@f94934</td></tr>
-<tr>
-<td title='TestNGPac.ReRunAllFailedScript.Test2()'><b>Test2</b><br>Test class: TestNGPac.ReRunAllFailedScript</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre>
+				</div></td>
+			<td>0</td>
+			<td>TestNGPac.ReRunAllFailedScript@f94934</td>
+		</tr>
+		<tr>
+			<td title='TestNGPac.ReRunAllFailedScript.Test2()'><b>Test2</b><br>Test
+				class: TestNGPac.ReRunAllFailedScript</td>
+			<td><div>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at TestNGPac.ReRunAllFailedScript.Test2(ReRunAllFailedScript.java:18)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace25171011", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace25171011'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace25171011", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace25171011'>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -305,15 +378,24 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div></td>
-<td>0</td>
-<td>TestNGPac.ReRunAllFailedScript@f94934</td></tr>
-<tr>
-<td title='TestNGPac.ReRunAllFailedScript.Test2()'><b>Test2</b><br>Test class: TestNGPac.ReRunAllFailedScript</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre>
+				</div></td>
+			<td>0</td>
+			<td>TestNGPac.ReRunAllFailedScript@f94934</td>
+		</tr>
+		<tr>
+			<td title='TestNGPac.ReRunAllFailedScript.Test2()'><b>Test2</b><br>Test
+				class: TestNGPac.ReRunAllFailedScript</td>
+			<td><div>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at TestNGPac.ReRunAllFailedScript.Test2(ReRunAllFailedScript.java:18)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace32184542", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace32184542'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace32184542", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace32184542'>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -344,15 +426,24 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div></td>
-<td>0</td>
-<td>TestNGPac.ReRunAllFailedScript@f94934</td></tr>
-<tr>
-<td title='TestNGPac.ReRunAllFailedScript.Test2()'><b>Test2</b><br>Test class: TestNGPac.ReRunAllFailedScript</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre>
+				</div></td>
+			<td>0</td>
+			<td>TestNGPac.ReRunAllFailedScript@f94934</td>
+		</tr>
+		<tr>
+			<td title='TestNGPac.ReRunAllFailedScript.Test2()'><b>Test2</b><br>Test
+				class: TestNGPac.ReRunAllFailedScript</td>
+			<td><div>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at TestNGPac.ReRunAllFailedScript.Test2(ReRunAllFailedScript.java:18)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace21158673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace21158673'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace21158673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace21158673'>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -383,15 +474,24 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div></td>
-<td>0</td>
-<td>TestNGPac.ReRunAllFailedScript@f94934</td></tr>
-<tr>
-<td title='TestNGPac.ReRunAllFailedScript.Test2()'><b>Test2</b><br>Test class: TestNGPac.ReRunAllFailedScript</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre>
+				</div></td>
+			<td>0</td>
+			<td>TestNGPac.ReRunAllFailedScript@f94934</td>
+		</tr>
+		<tr>
+			<td title='TestNGPac.ReRunAllFailedScript.Test2()'><b>Test2</b><br>Test
+				class: TestNGPac.ReRunAllFailedScript</td>
+			<td><div>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at TestNGPac.ReRunAllFailedScript.Test2(ReRunAllFailedScript.java:18)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace19540560", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace19540560'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace19540560", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace19540560'>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -422,15 +522,24 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div></td>
-<td>0</td>
-<td>TestNGPac.ReRunAllFailedScript@f94934</td></tr>
-<tr>
-<td title='TestNGPac.ReRunAllFailedScript.Test2()'><b>Test2</b><br>Test class: TestNGPac.ReRunAllFailedScript</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre>
+				</div></td>
+			<td>0</td>
+			<td>TestNGPac.ReRunAllFailedScript@f94934</td>
+		</tr>
+		<tr>
+			<td title='TestNGPac.ReRunAllFailedScript.Test2()'><b>Test2</b><br>Test
+				class: TestNGPac.ReRunAllFailedScript</td>
+			<td><div>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at TestNGPac.ReRunAllFailedScript.Test2(ReRunAllFailedScript.java:18)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1395633", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1395633'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre>
+				</div>
+				<a href='#'
+				onClick='toggleBox("stack-trace1395633", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+					to show all stack frames</a>
+				<div class='stack-trace' id='stack-trace1395633'>
+					<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -461,22 +570,31 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div></td>
-<td>0</td>
-<td>TestNGPac.ReRunAllFailedScript@f94934</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='TestNGPac.ReRunAllFailedScript.Test3()'><b>Test3</b><br>Test class: TestNGPac.ReRunAllFailedScript</td>
-<td></td>
-<td>0</td>
-<td>TestNGPac.ReRunAllFailedScript@f94934</td></tr>
-</table><p>
+</pre>
+				</div></td>
+			<td>0</td>
+			<td>TestNGPac.ReRunAllFailedScript@f94934</td>
+		</tr>
+	</table>
+	<p>
+	<table width='100%' border='1' class='invocation-passed'>
+		<tr>
+			<td colspan='4' align='center'><b>PASSED TESTS</b></td>
+		</tr>
+		<tr>
+			<td><b>Test method</b></td>
+			<td width="30%"><b>Exception</b></td>
+			<td width="10%"><b>Time (seconds)</b></td>
+			<td><b>Instance</b></td>
+		</tr>
+		<tr>
+			<td title='TestNGPac.ReRunAllFailedScript.Test3()'><b>Test3</b><br>Test
+				class: TestNGPac.ReRunAllFailedScript</td>
+			<td></td>
+			<td>0</td>
+			<td>TestNGPac.ReRunAllFailedScript@f94934</td>
+		</tr>
+	</table>
+	<p>
 </body>
 </html>
