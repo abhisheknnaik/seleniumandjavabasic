@@ -59,7 +59,6 @@ public class AllBasicPrograms {
 			a = b;
 			b = temp;
 		}
-
 	}
 
 	public static void factorial() {

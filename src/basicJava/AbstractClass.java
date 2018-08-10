@@ -6,8 +6,7 @@ public class AbstractClass {
 		Rectangle rectangle = new Rectangle();
 		rectangle.length = 5;
 		rectangle.height = 4;
-		rectangle.area();
-		 
+		rectangle.area(); 
 	}
 }
 
